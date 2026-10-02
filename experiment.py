@@ -27,7 +27,7 @@ from prepare import (
 # Method switch — baseline first
 # ---------------------------------------------------------------------------
 
-METHOD = "no_memory"  # "no_memory" | "jitmem_base"
+METHOD = "jitmem_base"  # "no_memory" | "jitmem_base"
 
 # ---------------------------------------------------------------------------
 # Memory bank (raw trajectories)

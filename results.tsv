@@ -1,2 +1,3 @@
 commit	success_rate	n_tasks	status	description
 5025cb7	0.125000	8	keep	baseline no_memory gpt-4o-mini
+75bb910	0.500000	8	keep	jitmem_base gpt-4o-mini
