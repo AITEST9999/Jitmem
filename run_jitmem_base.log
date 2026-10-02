@@ -1,0 +1,40 @@
+method:           jitmem_base
+n_tasks_planned:  8
+model:            gpt-4o-mini
+budget_sec:       1200
+---
+
+=== task 1/8: look_at_obj_in_light-AlarmClock-None-DeskLamp-323/trial_T20190909_044715_250790 ===
+task_result: success=1 steps=8 goal='look at alarmclock under the desklamp.' err=None
+
+=== task 2/8: pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514 ===
+task_result: success=1 steps=19 goal='put some book on sidetable.' err=None
+
+=== task 3/8: pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897 ===
+task_result: success=0 steps=30 goal='put a clean butterknife in countertop.' err=None
+
+=== task 4/8: pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840 ===
+task_result: success=0 steps=30 goal='cool some apple and put it in countertop.' err=None
+
+=== task 5/8: pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675 ===
+task_result: success=0 steps=30 goal='heat some apple and put it in diningtable.' err=None
+
+=== task 6/8: pick_two_obj_and_place-AlarmClock-None-Dresser-305/trial_T20190907_165826_194855 ===
+task_result: success=1 steps=14 goal='put two alarmclock in dresser.' err=None
+
+=== task 7/8: look_at_obj_in_light-Bowl-None-DeskLamp-301/trial_T20190909_150719_492274 ===
+task_result: success=0 steps=30 goal='examine the bowl with the desklamp.' err=None
+
+=== task 8/8: pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139 ===
+task_result: success=1 steps=17 goal='put a book in sofa.' err=None
+
+---
+success_rate:     0.500000
+n_success:        4
+n_tasks:          8
+steps:            178
+wall_seconds:     623.7
+method:           jitmem_base
+api_calls:        186
+---
+EXIT_CODE=0
